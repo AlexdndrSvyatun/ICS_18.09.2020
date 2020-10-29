@@ -2,7 +2,7 @@ import csv
 import os
 
 print(os.getcwd())
-os.chdir("d:/Student/ICS_18.09.2020/laba 4-5/lb5.py")
+os.chdir("d:/Student/ICS_18.09.2020/Laba5/lb5.py")
 
 def isFileExisting(filename):
     return os.path.isfile(filename)
