@@ -83,7 +83,7 @@ def sortMarksInFile(filename):
         split_row_by_coma = row.split(",")
         dict[int(split_row_by_coma[1])] = split_row_by_coma[0]
     sorted_dict_by_items = sorted(dict.items())
-    fd = open(filename,"r+")
+    fd = open(filename,"r+)
     reader = fd.readline()
     for row in reader:
         split_row_by_coma = row.split(",")
