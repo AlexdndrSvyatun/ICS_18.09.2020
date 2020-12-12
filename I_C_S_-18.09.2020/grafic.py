@@ -17,4 +17,7 @@ plt.plot(year,apple_price,label = "Яблука")
 plt.xlabel("Рік")
 plt.ylabel("Ціна")
 plt.legend()
-plt.show()
+plt.grid(True)
+
+def showplot():
+ plt.show()
